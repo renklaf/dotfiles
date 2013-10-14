@@ -1,0 +1,33 @@
+" Bundles {
+    " Dependencies {
+        Bundle 'gmarik/vundle'
+    " } 
+
+    " General {
+        Bundle 'tpope/vim-sensible' 
+        Bundle 'scrooloose/nerdtree'
+        Bundle 'tpope/vim-surround'
+        Bundle 'tpope/vim-repeat'
+        Bundle 'kien/ctrlp.vim'
+        Bundle 'terryma/vim-multiple-cursors'
+    " }
+
+    " General Programming {
+        Bundle 'tpope/vim-fugitive'
+        Bundle 'scrooloose/syntastic'
+        Bundle 'scrooloose/nerdcommenter'
+        Bundle 'godlygeek/tabular.git'
+    " }
+
+    " Ruby / Rails {
+        Bundle 'tpope/vim-rails'
+        Bundle 'vim-ruby/vim-ruby'
+        Bundle 'thoughtbot/vim-rspec'
+        Bundle 'tpope/vim-cucumber'
+    " }
+
+    " Javascript {
+        Bundle 'kchmck/vim-coffee-script'
+    " }
+
+
