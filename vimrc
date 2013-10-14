@@ -102,5 +102,15 @@
 " }
 
 " Plugins {
-  nmap <leader>ne :NERDTree<cr>
+    " NerdTree {
+        nmap <leader>ne :NERDTree<cr>
+    " }
+
+    " Rspec {
+        map <Leader>t :call RunCurrentSpecFile()<CR>
+        map <Leader>s :call RunNearestSpec()<CR>
+        map <Leader>l :call RunLastSpec()<CR>
+        map <Leader>a :call RunAllSpecs()<CR>
+        let g:rspec_command_launcher = "iterm"
+    " }
 " }
