@@ -113,4 +113,10 @@
         map <Leader>a :call RunAllSpecs()<CR>
         let g:rspec_command_launcher = "iterm"
     " }
+      
+    " CtrlP {
+        let g:ctrlp_use_caching = 0
+        let g:ctrlp_working_path_mode = 1
+    " }
+
 " }
